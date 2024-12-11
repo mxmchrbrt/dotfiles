@@ -1,0 +1,14 @@
+[font]
+
+normal.family = "Iosevka"
+size = 12  # Adjust this to your preferred font size
+
+[window]
+
+opacity = 0.9
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+
