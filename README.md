@@ -2,7 +2,7 @@
 
 This repository contains my minimalist dotfile setup for the I3 window manager along with automatic wallpaper management using my [Auto-Wallpaper](https://github.com/mxmchrbrt/Auto-Wallpaper) script.
 
-##Screenshot
+## Screenshot
 
 ![screenshot](screenshot.png)
 
