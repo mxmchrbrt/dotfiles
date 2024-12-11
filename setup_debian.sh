@@ -19,9 +19,9 @@ mv spotlight-dark.rasi /home/$user/.local/share/rofi/themes/
 
 # Move configuration files to the appropriate locations
 echo "Moving configuration files..."
-cp -rf config /home/$user/.config/
+cp -rf config/* /home/$user/.config/
 cp -rf Rofi /home/$user
-cp -rf themes /home/$user/.themes/
+cp -rf themes/* /home/$user/.themes/
 
 # Fix permissions if needed
 sudo chown -R $user:$user /home/$user/.config /home/$user/.themes /home/$user/.local/share/rofi
