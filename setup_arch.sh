@@ -27,9 +27,14 @@ chown -R $user:$user /home/$user/.config /home/$user/.themes /home/$user/.local/
 echo "Cloning Auto-Wallpaper repository..."
 git clone https://github.com/mxmchrbrt/Auto-Wallpaper /home/$user/Auto-Wallpaper
 
+#Installing the font
+git clone https://aur.archlinux.org/ttf-iosevka.git
+cd ttf-iosevka
+makepkg -si
+cd ..
+
 # Cleanup the dotfiles directory (if applicable)
 echo "Cleaning up the dotfiles directory..."
 cd ..
 rm -rf dotfiles
-
-echo "Setup complete for Arch-based system."
+echo "Setup complete for Arch-based system. Please reboot."
