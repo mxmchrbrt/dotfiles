@@ -42,4 +42,4 @@ You can customize this setup further:
 - **Status Bar:** Edit the status bar settings in `~/.config/i3status/config` or replace it with a different tool like `polybar` for additional features.
 - **Wallpaper Sources:** Use the `Auto-Wallpaper` script to add your custom wallpaper sources, or integrate with an online service for daily wallpaper updates.
 
-### Rofi theme is from : https://github.com/adi1090x/rofi
+### Rofi theme is from : https://github.com/newmanls/rofi-themes-collection
