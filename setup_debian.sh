@@ -15,13 +15,13 @@ mkdir -p /home/$user/.local/share/rofi/themes
 
 # Move the Rofi theme
 echo "Moving Rofi theme..."
-mv spotlight.rasi /home/$user/.local/share/rofi/themes/
+mv spotlight-dark.rasi /home/$user/.local/share/rofi/themes/
 
 # Move configuration files to the appropriate locations
 echo "Moving configuration files..."
-cp -r config /home/$user/.config/
-cp -r Rofi /home/$user
-cp -r themes /home/$user/.themes/
+cp -rf config /home/$user/.config/
+cp -rf Rofi /home/$user
+cp -rf themes /home/$user/.themes/
 
 # Fix permissions if needed
 sudo chown -R $user:$user /home/$user/.config /home/$user/.themes /home/$user/.local/share/rofi

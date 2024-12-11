@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm i3 git rofi feh i3status i3lock flameshot stow alacri
 mkdir -p /home/$user/.config
 mkdir -p /home/$user/.themes
 mkdir -p /home/$user/.local/share/rofi/themes
-mv spotlight.rasi /home/$user/.local/share/rofi/themes
+mv spotlight-dark.rasi /home/$user/.local/share/rofi/themes
 
 # Move configuration files to the appropriate locations
 echo "Moving configuration files..."
