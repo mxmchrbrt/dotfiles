@@ -205,12 +205,6 @@ bindsym $mod+Shift+p exec --no-startup-id "bash ~/Rofi/audio_manager.sh"
 exec_always autotiling &
 
 exec --no-startup-id "picom --config ~/.config/picom/picom.sample.conf"
-exec --no-startup-id "obsidian"
-exec --no-startup-id flatpak run com.github.wwmm.easyeffects
-assign [class="easyeffects"] workspace 9
-exec --no-startup-id firefox
-assign [class="firefox"] workspace 2
-
 exec --no-startup-id "bash /home/user/Auto-Wallpaper/auto-wallpaper.sh"
 
 ### Windows Rules
