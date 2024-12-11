@@ -4,7 +4,7 @@ This repository contains my minimalist dotfile setup for the I3 window manager a
 
 ## Screenshot
 
-![screenshot](screenshot.png)
+![screenshot](screenshot-dotfiles.png)
 
 ## Features
 
