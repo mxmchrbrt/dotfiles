@@ -6,7 +6,7 @@ user=$(whoami)
 
 # Update the system and install necessary packages
 sudo pacman -Syu --noconfirm
-sudo pacman -S --noconfirm i3 git rofi feh i3status i3lock flameshot stow alacritty
+sudo pacman -S --noconfirm i3 git rofi feh i3status i3lock flameshot picom alacritty
 
 # Ensure directories exist
 mkdir -p /home/$user/.config
