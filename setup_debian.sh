@@ -6,7 +6,7 @@ user=$(whoami)
 
 # Update the system and install necessary packages
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y i3 git rofi feh i3status i3lock flameshot picom alacritty
+sudo apt install -y i3 git rofi feh i3status i3lock flameshot alacritty
 
 # Ensure directories exist
 mkdir -p /home/$user/.config
