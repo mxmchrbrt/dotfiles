@@ -194,3 +194,4 @@ bar {
 # Binds
 
 bindsym $mod+c exec "emacs"
+bindsym $mod+Shift+s exec "flameshot gui"
