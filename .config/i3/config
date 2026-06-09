@@ -195,3 +195,9 @@ bar {
 
 bindsym $mod+c exec "emacs"
 bindsym $mod+Shift+s exec "flameshot gui"
+
+
+gaps inner 10
+gaps outer 5
+
+exec_always feh --bg-fill --randomize ~/dotfiles/.wallpapers/*
