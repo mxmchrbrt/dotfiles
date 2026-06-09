@@ -1,7 +1,7 @@
 # Installation
 
 ``` bash
-sudo apt install git vim emacs net-tools gcc gdb alacritty i3 feh mpv flameshot network-manager network-manager-applet budgie-network-manager-applet ranger cmus
+sudo apt install git vim emacs net-tools gcc gdb alacritty i3 feh mpv flameshot network-manager network-manager-applet budgie-network-manager-applet ranger cmus libreoffice kdenlive obs-studio
 cd ~/
 git clone https://github.com/mxmchrbrt/dotfiles
 mkdir -p ~/.config/alacritty
