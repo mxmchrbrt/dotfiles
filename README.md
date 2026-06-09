@@ -1,5 +1,5 @@
-# dotfiles
-Here is my simple, reproductible workflow on debian, i3wm, emacs, vim...
+# Installation
+
 ``` bash
 cd ~/
 git clone https://github.com/mxmchrbrt/dotfiles
