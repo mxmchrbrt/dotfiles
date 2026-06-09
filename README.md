@@ -1,7 +1,7 @@
 # Installation
 
 ``` bash
-sudo apt install git vim emacs net-tools gcc gdb alacritty i3 feh mpv
+sudo apt install git vim emacs net-tools gcc gdb alacritty i3 feh mpv flameshot network-manager network-manager-applet budgie-network-manager-applet
 cd ~/
 git clone https://github.com/mxmchrbrt/dotfiles
 mkdir -p ~/.config/alacritty
@@ -19,4 +19,9 @@ ln -s ~/dotfiles/.config/i3/config ~/.config/i3/config
 ln -s ~/dotfiles/.vimrc ~/.vimrc
 ln -s ~/dotfiles/.config/emacs/init.el ~/.emacs.d/init.el
 ln -s ~/dotfiles/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
+```
+On laptop only:
+
+``` bash
+sudo apt install tlp
 ```
